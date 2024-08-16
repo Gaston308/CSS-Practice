@@ -1,0 +1,39 @@
+img {
+  width: 350px;
+  height: 350px;
+}
+
+.color-by-name {
+  background-color: coral;
+  color: rebeccapurple;
+  border: thick solid greenyellow;
+}
+.color-hex {
+  background-color: #ff6600;
+  background-color: #00000075;
+  color: #12ac78;
+  border: thick solid #000000;
+}
+.color-rgb {
+  background-color: rgb(200, 195, 26);
+  color: rgb(255, 12, 0);
+  border: thick solid rgb(0, 0, 0);
+}
+.color-hsl {
+  background-color: hsl(0, 100%, 20%);
+  color: rebeccapurple;
+  border: thick solid hsl(240, 100%, 40%);
+}
+
+.color-transparent-current {
+  background-color: darkmagenta;
+  background-color: transparent;
+  background-color: currentColor;
+  color: orange;
+}
+.opacity {
+  background-color: orchid;
+  color: navy;
+  border: thick solid black;
+  opacity: 0.5;
+}

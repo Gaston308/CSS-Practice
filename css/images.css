@@ -1,0 +1,20 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card {
+  border: medium solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: aquamarine;
+}
+.card img {
+  background-color: blanchedalmond;
+  height: 300px;
+  object-fit: fill;
+  object-fit: cover;
+  object-fit: contain;
+  object-position: left top;
+}
