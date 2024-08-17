@@ -4,6 +4,7 @@ html {
   font-size: 16px;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 *,
 *::after,
@@ -20,8 +21,32 @@ h2 {
 .header {
   position: sticky;
   top: 0;
-  padding: 1.25rem;
+  padding: 0.25rem;
   text-align: center;
   background-color: black;
   color: white;
+}
+
+.header a {
+  margin: 0 1rem;
+  color: #00d4c6;
+}
+
+.header a:hover {
+  color: #e94bb4;
+}
+
+.slide {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #d9e8f0;
+  background-color: #1e2345;
+}
+.slide:nth-child(even) {
+  background-color: #108eb4;
+}
+
+[id] {
+  scroll-margin-top: 7.8ex;
 }
